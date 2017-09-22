@@ -8,6 +8,12 @@
 		font-size: 12pt;
 	}
 	
+	#container{
+		width: 80%;
+		margin: 0px auto;
+		border: 1px solid black;
+	}
+	
 	figure img{
 		height: 120px;
 	}	
@@ -15,96 +21,108 @@
 	table{
 		border: 1px solid black;
 		border-collapse: collapse;
+		width: 90%;
+		margin: auto;
 	}
 	
 	.italic{
 		font-style: italic;
 	}
+	
+	#main-navigation{
+		background-color: #FFEC71;
+		height: 10vh;
+		border-bottom: 1px solid black;
+		padding: 5px;
+		line-height: 10vh;
+	}
 </style>
 </head>
 
 <body>
-<nav>
-	<a href="#">Home</a>
-	<a href="bear.html">The brown bear</a>
-	<a href="contact.html">Contact</a>
-</nav>
+	<div id="container">
+		<nav id="main-navigation">
+			<a href="#">Home</a>
+			<a href="bear.html">The brown bear</a>
+			<a href="contact.html">Contact</a>
+		</nav>
 
-<table width="800" border="1" cellpadding="10">
-  <tbody>
-   <tr>
-   	<th colspan="3" scope="colgroup">Predatory animals</th>
-   </tr>
-    <tr>
-      <th scope="col">Species</th>
-      <th scope="col">Latin name</th>
-      <th scope="col">Image</th>
-    </tr>
-    <tr>
-      <td>Brown bear</td>
-      <td class="italic">Ursus arctos</td>
-      <td>
-      	<figure>
-      		<img src="img/brown-bear.jpg" alt="picture of brown bear">
-      		<figcaption>Brown bear</figcaption>
-      	</figure>
-      </td>
-    </tr>
-    <tr>
-      <td>Badger</td>
-      <td class="italic">Meles meles</td>
-      <td>
-      	<figure>
-      		<img src="img/badger.jpg" alt="picture of badger">
-      		<figcaption>Badger</figcaption>
-      	</figure>
-      </td>
-    </tr>
-    <tr>
-      <td>Fox</td>
-      <td class="italic">Vulpes Vulpes</td>
-      <td>
-      	<figure>
-      		<img src="img/fox.jpg" alt="picture of fox">
-      		<figcaption>Fox</figcaption>
-      	</figure>
-      </td>
-    </tr>
-    <tr>
-      <td>Sand cat</td>
-      <td>Felis margarita</td>
-      <td class="italic">
-      	<figure>
-      		<img src="img/sand_cat.jpg" alt="picture of sand cat">
-      		<figcaption>Sand Cat</figcaption>
-      	</figure>
-      </td>
-    </tr>
-    <tr>
-      <td>Wild cat</td>
-      <td class="italic">Felis silvestris</td>
-      <td>
-      	<figure>
-      		<img src="img/wild cat.jpg" alt="picture of wild cat">
-      		<figcaption>Wild cat</figcaption>
-      	</figure>
-      </td>
-    </tr>
-    <tr>
-      <td>Wolf</td>
-      <td class="italic">Canis lupus</td>
-      <td>
-      	<figure>
-      		<img src="img/wolf.jpg" alt="picture of wolf">
-      		<figcaption>Wolf</figcaption>
-      	</figure>
-      </td>
-    </tr>
-    <tr>
-    	<td colspan="3">All pictures from <a href="http://www.naturephoto-cz.com/mammals/predatory-animals.html" target="_blank">http://www.naturephoto-cz.com/mammals/predatory-animals.html</a></td>
-    </tr>
-  </tbody>
-</table>
+		<table border="1" cellpadding="10">
+		  <tbody>
+		   <tr>
+			<th colspan="3" scope="colgroup">Predatory animals</th>
+		   </tr>
+			<tr>
+			  <th scope="col">Species</th>
+			  <th scope="col">Latin name</th>
+			  <th scope="col">Image</th>
+			</tr>
+			<tr>
+			  <td>Brown bear</td>
+			  <td class="italic">Ursus arctos</td>
+			  <td>
+				<figure>
+					<img src="img/brown-bear.jpg" alt="picture of brown bear">
+					<figcaption>Brown bear</figcaption>
+				</figure>
+			  </td>
+			</tr>
+			<tr>
+			  <td>Badger</td>
+			  <td class="italic">Meles meles</td>
+			  <td>
+				<figure>
+					<img src="img/badger.jpg" alt="picture of badger">
+					<figcaption>Badger</figcaption>
+				</figure>
+			  </td>
+			</tr>
+			<tr>
+			  <td>Fox</td>
+			  <td class="italic">Vulpes Vulpes</td>
+			  <td>
+				<figure>
+					<img src="img/fox.jpg" alt="picture of fox">
+					<figcaption>Fox</figcaption>
+				</figure>
+			  </td>
+			</tr>
+			<tr>
+			  <td>Sand cat</td>
+			  <td>Felis margarita</td>
+			  <td class="italic">
+				<figure>
+					<img src="img/sand_cat.jpg" alt="picture of sand cat">
+					<figcaption>Sand Cat</figcaption>
+				</figure>
+			  </td>
+			</tr>
+			<tr>
+			  <td>Wild cat</td>
+			  <td class="italic">Felis silvestris</td>
+			  <td>
+				<figure>
+					<img src="img/wild cat.jpg" alt="picture of wild cat">
+					<figcaption>Wild cat</figcaption>
+				</figure>
+			  </td>
+			</tr>
+			<tr>
+			  <td>Wolf</td>
+			  <td class="italic">Canis lupus</td>
+			  <td>
+				<figure>
+					<img src="img/wolf.jpg" alt="picture of wolf">
+					<figcaption>Wolf</figcaption>
+				</figure>
+			  </td>
+			</tr>
+			<tr>
+				<td colspan="3">All pictures from <a href="http://www.naturephoto-cz.com/mammals/predatory-animals.html" target="_blank">http://www.naturephoto-cz.com/mammals/predatory-animals.html</a></td>
+			</tr>
+		  </tbody>
+		</table>
 
+	</div> <!-- container end -->
 </body>
 </html>
